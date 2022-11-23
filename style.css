@@ -1,0 +1,646 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+ .center{
+    width: 65%;
+    margin: auto;
+}
+.navbar .nav-items .left{
+    display: flex;
+}
+.navbar .center .nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .center .nav-items .right ul{
+    list-style: none;
+    display: flex;
+    
+}
+.navbar .nav-items .left p:hover a {
+    background-color: rgb(103, 202, 169);
+    transition: all 0.6s ease;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.navbar .nav-items .right ul li:hover a {
+    background-color: rgb(14, 134, 246);
+    transition: all 0.6s ease;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.navbar{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+   z-index: 1;
+}
+.brands{
+    padding-top: 109px;
+}
+.navbar .center .nav-items .right ul li a{
+    color: #333333;
+}
+.navbar .center .nav-items .right ul li{
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 47px 35px;
+}
+ a{
+    text-decoration: none;
+   
+}
+.navbar .center .nav-items .left img{
+    margin: 18px 0px;
+    width: 65px;
+    height: 70px;
+}
+.navbar .center .nav-items .left p a {
+    color: #333333;
+}
+.navbar .center .nav-items .left p {
+    font-family: 'Oswald', sans-serif;
+    margin: 34px 0px 37px 20px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.brands {
+    background-image: url(./images/IMAGE\ \(8\).png);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.brands {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.brands .brands-items{
+    text-align: center;
+}
+.brands .brands-items h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    color: white;
+    text-transform: uppercase;
+}
+.brands .brands-items hr{
+    margin: auto;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 28px;
+    background-color: #FFFFFF;
+    width: 80px;
+    height: 2px;
+}
+.brands .brands-items p{
+    color: white;
+    margin-top: 25px;
+    font-weight: 400;
+    font-family: 'Vollkorn', serif;
+    font-size: 15px;
+}
+.canada{
+    background-color: #FEFEC9;
+    width: 100%;
+    height: 280px;
+}
+.canada .canada-items{
+    background-image: url(./images/IMAGE\ \(10\).png);
+    background-repeat: no-repeat;
+     margin-top: 291px; 
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: calc(50% - 52px/2);
+    top: calc(50% - 52px/2 - 144.5px);
+}
+.canada .ontorio p{
+    font-weight: 400;
+    text-align: center;
+    color: #47474F;
+    font-family: 'Vollkorn', serif;
+    font-size: 18px;
+    
+}
+.canada .ontorio .full{
+    padding-top: 64px;
+}
+.canada .ontorio {
+    text-align: center;
+}
+.canada .ontorio button:hover{
+    background-color: #212121;
+    color: #FEFEC9;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.canada .ontorio button{
+    margin: 39px 0px 59px 0px;
+    font-weight: 400;
+    font-size: 16px; 
+    border-top: 1px solid #47474F;
+    border-right: 1px solid #47474F;
+    border-bottom: 2px solid #47474F;
+    border-left: 1px solid #47474F;
+    font-family: 'Vollkorn', serif;
+    color: #47474F;
+    padding: 13px 33.5px 20px 34.5px;
+    background-color: transparent;
+}
+.thrive{
+    width: 100%;
+    height: 77vh;
+}
+.thrive .thrive-items h1{
+    margin-top: 79px;
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+.thrive .thrive-items hr{
+    margin: auto;
+    width: 80px;
+    height: 2px;
+    background-color: #00000017;
+}
+.thrive .thrive-items .table:hover {
+    background-color: rgb(30, 70, 179);
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.thrive .thrive-items .table .target  img{
+    width: 300px 220px;
+    text-align: center;
+    padding: 50px 87px;
+    background-color: #F5F5F5;
+    margin-top: 43px;
+}
+.thrive .thrive-items .table .target  h1{
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    margin-top: 38px;
+}
+.thrive .thrive-items .table .target p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Vollkorn', serif;
+    color: #333333;
+    line-height: 22px;
+}
+.thrive .thrive-items .table .target .lor{
+    margin-top: 20px;
+}
+.thrive .thrive-items .set{
+    display: flex;
+    justify-content: space-between;
+}
+.project{
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 205vh;
+}
+.project h1{
+    text-align: center;
+    padding-top: 79px;
+    font-weight: 400;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+}
+.project hr{
+    margin: auto;
+    width:80px;
+    height: 2px;
+    margin-top: 28px;
+    color: #00000017;
+    background-color: #00000017;
+}
+.project .bottom .ab{
+    margin-top: 33px;
+}
+.project .first .woods{
+    width: 32%;
+    background-color: white;
+    margin: 10px;
+}
+.project .first .woods img{
+    width: 100%;
+}
+.project .first .woods:hover img{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.project .first .woods .photo{
+    text-align: center;
+}
+.project .first .woods .photo h3{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    padding-top: 19px;
+}
+.project .first .woods .photo p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Vollkorn', serif;
+    color: #333333;
+    padding-top: 4px;
+    padding-bottom: 21px;
+}
+.project .first{
+    width: 100%;
+    display: flex;
+}
+.team h1{
+    margin-top: 79px;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+}
+.team hr{
+    margin: auto;
+    width:80px;
+    height: 2px;
+    margin-top: 28px;
+    color: #00000017;
+    background-color: #00000017;
+}
+.team .members .worker {
+    width: 40%;
+}
+.team .members .worker .p:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.team .members .worker img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.team .members{
+    margin-top: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+.team .members .worker p{
+    margin-top: 6px;
+    font-weight: 400;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+}
+.team .members .worker h1{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 16px;
+}
+.team .members .worker .twitter{
+    margin-top: 18px;
+    text-align: center;
+}
+.team .members .worker .twitter img{
+    margin-top: 11px 6px 10px ;
+    padding: 2px 8px;
+    background-color: #F5F5F5;
+}
+.great{
+    
+    background-color: #F5F5F5;
+    text-align: center;
+}
+.great img{
+    margin-top: 69px;
+}
+.great img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.great .recomend{
+    display: flex;
+    margin-top: 37px;
+}
+.great .recomend .left p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    font-family: 'Vollkorn', serif;
+    color: #333333;
+}
+.great .recomend .right p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    font-family: 'Vollkorn', serif;
+    color: #333333;
+}
+.great .recomend .left h1{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    font-family: 'Vollkorn', serif;
+    color:#ABABAB;
+    text-transform: uppercase;
+}
+.great .recomend .right h1{
+    margin-bottom: 98px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    font-family: 'Vollkorn', serif;
+    color:#ABABAB;
+    text-transform: uppercase;
+}
+.great .recomend .left img{
+    width: 64px;
+    height: 64px;
+    margin-top: 24px;
+}
+.great .recomend .right img{
+    width: 64px;
+    height: 64px;
+    margin-top: 24px;
+}
+.great .recomend .left{
+    margin-left: 328px;
+    margin-right: 71px;
+}
+.great .recomend .right{
+    margin-right: 328px;
+    margin-left: 71px;
+}
+.great .recomend hr{
+    
+    background-color: #0000000A;
+    color: #0000000A;
+    width: 2px;
+    height: 215px;
+}
+.location .center h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 79px;
+    font-weight: 400;
+    font-size: 23px;
+}
+.location{
+    background-image: url(./images/IMAGE\ \(29\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.location hr{
+    margin: auto;
+    width:80px;
+    height: 2px;
+    margin-top: 28px;
+    color: #00000017;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+.location .mail img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.location .mail .street1 .hov:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.location .street{
+    padding-top: 43px;
+}
+.location .street .person{
+    text-align: center;
+}
+.location .street .person img{
+    margin-top: 13px;
+}
+.location .street .person h4{
+    margin-top: 26px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.location .street .person p{
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Vollkorn', serif;
+    color: #212121;
+}
+.location .street .person .juni{
+margin-top: 20px;
+}
+.location .mail{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.location .street1{
+    padding-top: 43px;
+}
+.location .street1 .person{
+    text-align: center;
+}
+.location .street1 .person img{
+    margin-top: 20px;
+}
+.location .street1 .person h4{
+    margin-top: 34px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.location .street1 .person p{
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Vollkorn', serif;
+    color: #212121;
+}
+.location .street1 .person .juni{
+margin-top: 20px;
+}
+.location .street1 .form{
+    margin-top: 22px;
+}
+
+
+.location .street2{
+    padding-top: 43px;
+}
+.location .street2 .person{
+    text-align: center;
+}
+.location .street2 .person img{
+    margin-top: 20px;
+}
+.location .street2 .person h4{
+    margin-top: 28px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.location .street2 .person p{
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Vollkorn', serif;
+    color: #212121;
+}
+.location .street2 .person .juni{
+margin-top: 19px;
+}
+.location .street2 .fas{
+    display: flex;
+}
+.location .street2 .fas .f{
+    margin-top: 21px;
+    margin-right: 9px;
+    width: 14px;
+    height: 14px;
+}
+.location .street2 .fas .t{
+    margin-top: 16px;
+    margin-right: 9px;
+    width: 14px;
+    height: 12px;
+}
+.location .street2 .fas .n{
+    width: 9.2px;
+    height: 9.8px;
+    margin-top: 18px;
+    margin-right: 9px;
+}
+.location .street2 .fas .i{
+    width: 3.1px;
+    height: 11.8px;
+    margin-top: 16px;
+}
+.location .street2 .fas .tw{
+    margin-top: 11px;
+}
+.location .center{
+    padding-bottom: 69px;
+}
+.message{
+    background-color: #000000;
+}
+.message .center{
+    margin: auto;
+    text-align: center;
+}
+.message .center img{
+    margin-top: 37px;
+    width: 43px;
+    height: 46px;
+}
+.message .center img:hover{
+    background-color: #47474F;
+    transition: 0.7s ease;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.message .center p{
+    padding-top: 14px;
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 75px;
+    color: #FFFFFF66;
+}
+.message .center .descreption{
+    padding-top: 69px;
+}
+.message .center .descreption :nth-child(1)
+{
+    background-color: #FFFFFF2E;
+}
+.message .center .descreption input:nth-child(5)
+{
+    background-color: #FFFFFF2E;
+}
+.message .center .descreption input:nth-child(3)
+{
+    background-color: #FFFFFF33;
+}
+.message .descreption input{
+    width: 564px;
+    height: 57px;
+    color: white;
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    padding-left: 31px;
+}
+.message .descreption textarea{
+    width: 564px;
+    height: 127px;
+    padding-left: 31px;
+    padding-top: 17px;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    font-size: 17px;
+    background-color: #FFFFFF33;
+}
+.message .descreption .was::placeholder{
+    color: white;
+    font-weight: 400;
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+    padding: 18px 0px 17px 0px;
+    font-size: 17px;
+}
+.message .descreption .m::placeholder{
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Vollkorn', serif;
+    font-style: italic;
+}
+.team .members{
+    padding-bottom: 69px;
+}
